@@ -1,9 +1,6 @@
-import os
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 
-# Set the DISPLAY environment variable
-os.environ['DISPLAY'] = ':0'
 
 class ContactBookApp:
     def __init__(self, root):
